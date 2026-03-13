@@ -24,7 +24,7 @@ function calcularMedia() {
             resultado.classList.remove('recuperacao')
         }
 
-        else if (calculo >= 5 && calculo < 6.9) {
+        else if (calculo < 7 && calculo > 5) {
             resultado.textContent = 'A média das notas inseridas é: ' + calculo.toFixed(2) + ' // Aluno: RECUPERAÇÃO'
             resultado.classList.add('recuperacao')
             resultado.classList.remove('reprovado')
@@ -36,6 +36,8 @@ function calcularMedia() {
             resultado.classList.add('reprovado')
             resultado.classList.remove('recuperacao')
             resultado.classList.remove('aprovado')
+
+            console.log(calculo)
         }
     }
 }
