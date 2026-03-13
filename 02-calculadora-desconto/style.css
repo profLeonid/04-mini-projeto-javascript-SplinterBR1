@@ -109,6 +109,21 @@ button:hover {
   justify-content: center;
 }
 
+/* aplica a classe até 5% */
+.resultado1 {
+  background-color: #14532d; 
+}
+
+/* aplica a classe 5% e 10% */
+.resultado2 {
+  background-color: #713f12;
+}
+
+/* aplica a classe acima de 10% */
+.resultado3 {
+  background-color: #7f1d1d;
+}
+
 footer {
   display: flex;
   align-items: flex-end;
